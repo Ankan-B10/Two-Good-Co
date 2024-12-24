@@ -259,6 +259,8 @@ body {
 header {
 	padding: 22px;
 	border-bottom: 1px solid #000;
+	display: flex;
+	justify-content: space-between;
 }
 header h1 {
 	font-size: 30px;
@@ -276,6 +278,8 @@ header h1 {
 	margin-top: 100px;
 	padding: 20px;
 	background-color: #f9f9f9;
+	/* height: 700px;
+	width: 100%; */
   }
   
   .footer-links {
@@ -286,13 +290,17 @@ header h1 {
   }
   
   .footer-links h3 {
-	margin-bottom: 10px;
-	font-size: 14px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: monospace;
+	color: #b7b6b6;
   }
   
   .footer-links ul {
 	list-style-type: none;
-	padding: 0;
+	text-align: right;
+	line-height: 0.8;
   }
   
   .footer-links li {
@@ -302,6 +310,8 @@ header h1 {
   .footer-links a {
 	text-decoration: none;
 	color: #000;
+	font-size: 11px;
+	font-family: futura;
   }
   
   .footer-info {
@@ -310,11 +320,28 @@ header h1 {
 	line-height: 1.5;
 	color: #555;
   }
+  .footer-info p{
+	display: flex;
+	justify-content: center;
+	margin: 0 150px;
+	font-size : 10px;
+	margin-top: 50px;
+	color: #000;
+	align-items: center;
+	font-family:monospace;
+  }
   
-  .legal {
+  .footer-info .legal {
 	margin-top: 20px;
 	font-size: 10px;
-	color: #333;
+	color: #7b7b7b;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+  }
+  .footer-info .legal a{
+	text-decoration: none;
+	color: #7b7b7b;
+	text-transform: uppercase;
   }
 
   #twogoodlogoBig{
